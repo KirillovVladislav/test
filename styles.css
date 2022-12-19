@@ -1,0 +1,87 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+  width: 403px;
+  height: 380px;
+  background-color: #d9d9d9;
+  z-index: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main .rectangle {
+  position: absolute;
+  z-index: 4;
+  border-radius: 29px;
+  bottom: 29px;
+  left: 50px;
+  width: 302px;
+  height: 80px;
+  background-color: #920fbf;
+}
+
+.main .circle_right {
+  position: absolute;
+  z-index: 4;
+  background-color: #0ca565;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  right: 78px;
+  bottom: 143px;
+}
+
+.main .triangle {
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-bottom: 108px solid #ce3607;
+  border-left: 100px solid transparent;
+}
+
+.main .circle_left {
+  position: absolute;
+  z-index: 2;
+  background-color: #248456;
+  left: -95px;
+  top: -98px;
+  height: 311px;
+  width: 323px;
+  border-radius: 50%;
+}
+
+.main .direct {
+  z-index: 3;
+  position: absolute;
+  background-color: #1c3f9b;
+  height: 311px;
+  width: 48px;
+  left: 175px;
+  top: 21px;
+  -webkit-transform: rotate(137deg);
+          transform: rotate(137deg);
+}
+/*# sourceMappingURL=styles.css.map */
